@@ -22,8 +22,8 @@ ZSH_AUTOSUGGEST_USE_ASYNC="yes"
 [[ -f $ZDIR/alias.zsh       ]]  && . $ZDIR/alias.zsh        #Aliases
 [[ -f $ZDIR/functions.zsh   ]]  && . $ZDIR/functions.zsh    #Functions
 [[ -f $ZDIR/style.zsh       ]]  && . $ZDIR/style.zsh        #Zstyle
-# [[ -f $ZDIR/prompt.zsh      ]]  && . $ZDIR/prompt.zsh       #Prompt
-prompt redhat
+[[ -f $ZDIR/prompt.zsh      ]]  && . $ZDIR/prompt.zsh       #Prompt
+#prompt redhat
 
 #--------------------------------------------------------------------
 # Source ZSH Plugins
