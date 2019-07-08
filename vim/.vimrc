@@ -60,8 +60,6 @@ colorscheme bubblegum-256-dark
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme     = 'minimalist'
-let g:promptline_theme  = 'airline'
-
 " YCM
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 
